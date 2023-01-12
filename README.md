@@ -1,0 +1,1 @@
+TODO - tkinter es requirements txtrol szavak
