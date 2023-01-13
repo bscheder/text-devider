@@ -32,8 +32,9 @@ def divide():
         data = file.readlines()
                         
         for row in data:
-            rows.append(row)
             row_counter+=1
+            if row.strip():
+                rows.append(row)
             
             #Check that the limit has been reached
             if row_counter == MAX_LENGTH:
